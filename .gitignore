@@ -8,5 +8,17 @@
 *.war
 *.ear
 
+#Other
+Enigma-Machine.iml
+.DS_Store
+META-INF/
+out/
+com/.DS_Store
+com/enigma/.DS_Store
+com/enigma/Model/.DS_Store
+com/enigma/cypher/.DS_Store
+com/enigma/rotor/.DS_Store
+com/enigma/view/.DS_Store
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
