@@ -9,7 +9,7 @@ plugins {
 // sourceCompatibility = '11'
 
 repositories {
-	mavenCentral()
+	jcenter()
 }
 
 javafx {
@@ -19,3 +19,10 @@ javafx {
 }
 
 mainClassName = 'com.dittogod.enigma.view.Enigma'
+
+jar {
+    manifest {
+        attributes('Implementation-Title': project.name,
+                   'Implementation-Version': 11,)
+    }
+}
